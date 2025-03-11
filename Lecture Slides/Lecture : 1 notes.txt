@@ -1,0 +1,217 @@
+1. Definition of IoT
+Internet of Things (IoT) refers to a fully networked and connected system where devices send analytics data back to the cloud or data center.
+
+Key Points:
+
+Every object or "thing" is provided a unique identifier.
+
+Data is transferred through a network without verbal communication.
+
+IoT is not just about connecting devices to the internet but also about enabling them to communicate, exchange data, process information, and control actions.
+
+2. Formal Definition of IoT
+IoT is a dynamic global network infrastructure with self-configuring capabilities.
+
+It is based on standard and interoperable communication protocols.
+
+Physical and virtual "things" have:
+
+Identities
+
+Physical attributes
+
+Intelligent interfaces
+
+These things are seamlessly integrated into information networks that communicate data with users and environments.
+
+3. Characteristics of IoT
+Dynamic Global Network & Self-Adapting: Adapts to changes in context.
+
+Self-Configuring: Automatically fetches software updates without manual intervention.
+
+Interoperable Communication Protocols: Devices communicate using various protocols.
+
+Unique Identity: Each device has a unique identifier (e.g., IP address or URI).
+
+Integrated into Information Network: Allows devices to communicate and exchange data for analysis.
+
+4. Physical Design of IoT
+Things in IoT
+Refers to IoT devices with unique identities that can perform:
+
+Sensing
+
+Actuating
+
+Monitoring
+
+IoT devices can:
+
+Exchange data with other connected devices.
+
+Collect data from other devices.
+
+Process data locally or send it to centralized servers or cloud-based backends.
+
+Generic Block Diagram of an IoT Device
+IoT devices consist of several interfaces:
+
+I/O interfaces for sensors and actuators.
+
+Internet connectivity interfaces (e.g., USB, Ethernet, WiFi).
+
+Memory and storage interfaces (e.g., NAND, DDR, SD).
+
+Audio/Video interfaces (e.g., HDMI, 3.5mm audio).
+
+5. IoT Protocols
+IoT protocols are divided into different layers:
+
+Link Layer
+Ethernet (802.3): Coaxial cable, twisted pair, fiber optic.
+
+WiFi (802.11): Operates in 2.4GHz and 5GHz bands.
+
+WiMax (802.16): Wireless broadband standards.
+
+LR-WPAN (802.15.4): Low-rate wireless personal area networks (e.g., Zigbee).
+
+2G/3G/4G/5G: Mobile communication standards.
+
+Network/Internet Layer
+IPv4: 32-bit address scheme.
+
+IPv6: 128-bit address scheme.
+
+6LoWPAN: IPv6 over low-power wireless personal area networks.
+
+Transport Layer
+TCP: Connection-oriented, reliable transmission.
+
+UDP: Connectionless, faster but less reliable.
+
+Application Layer
+HTTP: Foundation of the World Wide Web.
+
+CoAP: Constrained Application Protocol for IoT.
+
+MQTT: Lightweight messaging protocol for constrained devices.
+
+WebSocket: Full-duplex communication over a single socket.
+
+XMPP: Extensible Messaging and Presence Protocol for real-time communication.
+
+DDS: Data Distribution Service for device-to-device communication.
+
+AMQP: Advanced Message Queuing Protocol for business messaging.
+
+6. Logical Design of IoT
+Device: Sensing, actuation, monitoring, and control functions.
+
+Communication: IoT protocols.
+
+Services: Device monitoring, control, data publishing, and discovery.
+
+Management: Functions to govern the system.
+
+Security: Authentication, authorization, message integrity, and data security.
+
+Applications: User interface for controlling and monitoring IoT systems.
+
+7. Communication Models in IoT
+Request-Response: Client sends requests, and the server responds.
+
+Publish-Subscribe: Publishers send data to topics, and subscribers receive data from topics.
+
+Push-Pull: Producers push data to queues, and consumers pull data from queues.
+
+Exclusive Pair: Bidirectional, full-duplex communication with a persistent connection.
+
+8. REST-based Communication APIs
+REST (Representational State Transfer): A set of architectural principles for designing web services.
+
+Key Constraints:
+
+Client-Server
+
+Stateless
+
+Cacheable
+
+Layered System
+
+Uniform Interface
+
+Code on Demand
+
+9. WebSocket-based Communication APIs
+WebSocket: Allows bidirectional, full-duplex communication between clients and servers.
+
+Key Features:
+
+Follows the Exclusive Pair communication model.
+
+Single TCP connection for all requests.
+
+10. IoT Levels and Deployment Templates
+IoT systems are categorized into 6 levels based on complexity and deployment:
+
+IoT Level-1
+Single node/device that performs sensing, actuation, data storage, analysis, and hosts the application.
+
+Suitable for low-cost, low-complexity solutions.
+
+IoT Level-2
+Single node performs sensing/actuation and local analysis.
+
+Data is stored in the cloud, and the application is cloud-based.
+
+Suitable for solutions with large data but less intensive analysis.
+
+IoT Level-3
+Single node with data stored and analyzed in the cloud.
+
+Suitable for solutions with large data and computationally intensive analysis.
+
+IoT Level-4
+Multiple nodes perform local analysis.
+
+Data is stored in the cloud, and the application is cloud-based.
+
+Suitable for solutions with multiple nodes and computationally intensive analysis.
+
+IoT Level-5
+Multiple end nodes and one coordinator node.
+
+Coordinator node collects data from end nodes and sends it to the cloud.
+
+Suitable for wireless sensor networks with large data and intensive analysis.
+
+IoT Level-6
+Multiple independent end nodes send data to the cloud.
+
+Data is stored and analyzed in the cloud, and the application is cloud-based.
+
+Centralized controller manages all end nodes.
+
+11. Examples of IoT Systems
+IoT Level-1: Home Automation System (e.g., lighting control, smoke detectors).
+
+IoT Level-2: Smart Irrigation System (e.g., temperature, moisture sensors).
+
+IoT Level-3: Package Tracking System (e.g., accelerometer, gyroscope sensors).
+
+IoT Level-4: Noise Monitoring System (e.g., sound sensors).
+
+IoT Level-5: Wireless Sensor Networks.
+
+IoT Level-6: Centralized IoT Systems with multiple nodes.
+
+12. Key Takeaways
+IoT is a network of interconnected devices that communicate and exchange data without human intervention.
+
+IoT devices have unique identities and can perform sensing, actuation, and monitoring.
+
+IoT protocols are divided into link, network, transport, and application layers.
+
+IoT systems are categorized into 6 levels based on complexity, data storage, and analysis requirements.
